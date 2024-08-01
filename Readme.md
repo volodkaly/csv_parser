@@ -53,8 +53,9 @@ http://localhost:8000
 
 <h1>4. Nahrajte soubory oscar_age_female.csv a oscar_age_male.csv a stiskněte tlačítko odeslat.</h1>
 
-Popis souborů <br>
+<em>Popis souborů <br>
 index.html - HTML soubor obsahující formulář pro nahrávání souborů a zobrazení výsledků. <br>
 upload.php - PHP skript pro zpracování nahraných CSV souborů a zobrazení výsledků. <br>
 Dockerfile - Docker soubor pro nastavení PHP prostředí.
+</em>
 
