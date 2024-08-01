@@ -46,12 +46,12 @@ cd [cesta_k_repositáři]
 docker build -t oscar-winners-app . <br>
 docker run -d -p 8000:8000 oscar-winners-app
 
-<h1>Otevřete webový prohlížeč a přejděte na:</h1>
+<h1>4. Otevřete webový prohlížeč a přejděte na:</h1>
 
 http://localhost:8000
 
 
-<h1>4. Nahrajte soubory oscar_age_female.csv a oscar_age_male.csv a stiskněte tlačítko odeslat.</h1>
+<h1>5. Nahrajte soubory oscar_age_female.csv a oscar_age_male.csv a stiskněte tlačítko odeslat.</h1>
 
 <em>Popis souborů <br>
 <b>index.html</b> - HTML soubor obsahující formulář pro nahrávání souborů a zobrazení výsledků. <br>
