@@ -45,7 +45,7 @@ cd [cesta_k_repositáři]
 
 <h1>3. Vytvořte a spusťte Docker kontejner:</h1>
 
-docker build -t oscar-winners-app .
+docker build -t oscar-winners-app . <br>
 docker run -d -p 8000:8000 oscar-winners-app
 
 <h1>Otevřete webový prohlížeč a přejděte na:</h1>
