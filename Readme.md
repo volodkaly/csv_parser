@@ -5,7 +5,7 @@ https://docs.docker.com/engine/install/
 K ověření, že docker je nainstalován, zadejte v terminálu příkaz:
 docker -v
 
-V případě úspěchu se zobrazí odpověď:
+V případě úspěchu se zobrazí odpověď: <br>
 Docker version 24.0.7, build 24.0.7-0ubuntu2~22.04.1
 
 a dále příkaz:
