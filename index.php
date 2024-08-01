@@ -12,11 +12,11 @@
     <form action="/upload.php" method="post" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="femaleFile" class="form-label">Nahrát CSV soubor s přehledem ženských rolí</label>
-            <input class="form-control" type="file" id="femaleFile" name="femaleFile" required>
+            <input class="form-control" type="file" id="femaleFile" name="femaleFile" accept='.csv' required>
         </div>
         <div class="mb-3">
             <label for="maleFile" class="form-label">Nahrát CSV soubor s přehledem mužských rolí</label>
-            <input class="form-control" type="file" id="maleFile" name="maleFile" required>
+            <input class="form-control" type="file" id="maleFile" name="maleFile" accept='.csv' required>
         </div>
         <button type="submit" class="btn btn-primary">Odeslat</button>
     </form>
