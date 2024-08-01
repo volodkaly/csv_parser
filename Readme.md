@@ -1,6 +1,6 @@
 Přehled oscarů
 
-1. Nainstalujte docker a ověřte, že je nainstalován.
+<h1>1. Nainstalujte docker a ověřte, že je nainstalován.</h1>
 Postupujte dle návodu:
 https://docs.docker.com/engine/install/
 
@@ -38,20 +38,22 @@ For more examples and ideas, visit:
 
 
 
-Naklonujte repozitář:
+<h1>2. Naklonujte repozitář:</h1>
 
 git clone https://github.com/volodkaly/csv_parser.git  <br>
 cd [cesta_k_repositáři]
 
-Vytvořte a spusťte Docker kontejner:
+<h1>3. Vytvořte a spusťte Docker kontejner:</h1>
 
 docker build -t oscar-winners-app .
 docker run -d -p 8000:8000 oscar-winners-app
-Otevřete webový prohlížeč a přejděte na:
+
+<h1>Otevřete webový prohlížeč a přejděte na:</h1>
 
 http://localhost:8000
-Nahrajte soubory oscar_age_female.csv a oscar_age_male.csv pomocí poskytnutého formuláře.
-Stiskněte tlačítko odeslat.
+
+
+<h1>Nahrajte soubory oscar_age_female.csv a oscar_age_male.csv a stiskněte tlačítko odeslat.</h1>
 
 Popis souborů
 index.html - HTML soubor obsahující formulář pro nahrávání souborů a zobrazení výsledků.
