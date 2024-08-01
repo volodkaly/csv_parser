@@ -40,8 +40,9 @@ For more examples and ideas, visit:
 
 Naklonujte repozitář:
 
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/volodkaly/csv_parser.git  <br>
+cd [cesta_k_repositáři]
+
 Vytvořte a spusťte Docker kontejner:
 
 docker build -t oscar-winners-app .
@@ -50,8 +51,7 @@ Otevřete webový prohlížeč a přejděte na:
 
 http://localhost:8000
 Nahrajte soubory oscar_age_female.csv a oscar_age_male.csv pomocí poskytnutého formuláře.
-
-Zobrazte zpracované výsledky na stejné stránce.
+Stiskněte tlačítko odeslat.
 
 Popis souborů
 index.html - HTML soubor obsahující formulář pro nahrávání souborů a zobrazení výsledků.
