@@ -1,5 +1,3 @@
-Přehled oscarů
-
 <h1>1. Nainstalujte docker a ověřte, že je nainstalován.</h1>
 Postupujte dle návodu:
 https://docs.docker.com/engine/install/
